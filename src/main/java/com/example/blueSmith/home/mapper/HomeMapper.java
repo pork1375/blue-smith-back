@@ -1,4 +1,4 @@
-package com.example.blueSmith.mapper;
+package com.example.blueSmith.home.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 
