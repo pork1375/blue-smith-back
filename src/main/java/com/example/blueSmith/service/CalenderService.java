@@ -1,7 +1,7 @@
-package com.example.blueSmith.calender.service;
+package com.example.blueSmith.service;
 
-import com.example.blueSmith.calender.mapper.CalenderMapper;
-import com.example.blueSmith.calender.dto.CalenderDto;
+import com.example.blueSmith.mapper.CalenderMapper;
+import com.example.blueSmith.dto.CalenderDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

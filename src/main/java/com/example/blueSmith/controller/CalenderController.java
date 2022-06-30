@@ -1,7 +1,7 @@
-package com.example.blueSmith.calender.controller;
+package com.example.blueSmith.controller;
 
-import com.example.blueSmith.calender.dto.CalenderDto;
-import com.example.blueSmith.calender.service.CalenderService;
+import com.example.blueSmith.dto.CalenderDto;
+import com.example.blueSmith.service.CalenderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
