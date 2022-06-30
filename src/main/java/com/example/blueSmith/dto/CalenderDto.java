@@ -1,4 +1,4 @@
-package com.example.blueSmith.calender.dto;
+package com.example.blueSmith.dto;
 
 import lombok.Data;
 

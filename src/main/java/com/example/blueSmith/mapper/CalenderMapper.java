@@ -1,6 +1,6 @@
-package com.example.blueSmith.calender.mapper;
+package com.example.blueSmith.mapper;
 
-import com.example.blueSmith.calender.dto.CalenderDto;
+import com.example.blueSmith.dto.CalenderDto;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
