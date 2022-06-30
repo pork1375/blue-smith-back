@@ -1,6 +1,6 @@
-package com.example.blueSmith.controller;
+package com.example.blueSmith.home.controller;
 
-import com.example.blueSmith.service.HomeService;
+import com.example.blueSmith.home.service.HomeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
