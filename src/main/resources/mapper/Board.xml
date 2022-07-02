@@ -3,12 +3,12 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.blueSmith.mapper.CalenderMapper">
-    <select id="getCalender" resultType="com.example.blueSmith.dto.CalenderDto">
-        select
-        id
-        ,startDate
-        ,endDate
-        from calender
-    </select>
+<mapper namespace="com.example.blueSmith.board.mapper.BoardMapper">
+<!--    <select id="getCalender" resultType="com.example.blueSmith.dto.CalenderDto">-->
+<!--        select-->
+<!--        id-->
+<!--        ,startDate-->
+<!--        ,endDate-->
+<!--        from calender-->
+<!--    </select>-->
 </mapper>
