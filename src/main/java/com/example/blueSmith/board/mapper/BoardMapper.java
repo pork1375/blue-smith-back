@@ -1,4 +1,11 @@
 package com.example.blueSmith.board.mapper;
 
-public class BoardMapper {
+import com.example.blueSmith.board.dto.BoardDto;
+import org.apache.ibatis.annotations.Mapper;
+
+
+@Mapper
+public interface BoardMapper {
+    BoardDto boardDto();
+
 }

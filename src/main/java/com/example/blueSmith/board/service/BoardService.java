@@ -1,4 +1,4 @@
 package com.example.blueSmith.board.service;
 
-public class BoardService {
+public interface BoardService {
 }

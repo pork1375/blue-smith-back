@@ -4,11 +4,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.blueSmith.board.mapper.BoardMapper">
-<!--    <select id="getCalender" resultType="com.example.blueSmith.dto.CalenderDto">-->
-<!--        select-->
-<!--        id-->
-<!--        ,startDate-->
-<!--        ,endDate-->
-<!--        from calender-->
-<!--    </select>-->
+    <select id="boardDto" resultType="com.example.blueSmith.board.dto.BoardDto">
+        select
+        userId
+        ,wDate
+        ,title
+        ,content
+        from board
+    </select>
 </mapper>
