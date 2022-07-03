@@ -1,20 +1,18 @@
 package com.example.blueSmith.board.dto;
 
+import lombok.Builder;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Value;
+
 
 @Data
+@Builder
 public class BoardDto {
 
-//    private int boardNum; // 게시글 번호
-    @Value("KJH")
+    private Integer boardNum; // 게시글 번호
     private String userId;   // 작성자
-    @Value("today")
     private String wDate; // 작성일자
-    @Value("testTitle")
     private String title; // 제목
-    @Value("testContent")
     private String content; // 내용
-
+    private int hitNum; // 조회수
 
 }

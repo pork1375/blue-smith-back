@@ -4,12 +4,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.blueSmith.board.mapper.BoardMapper">
-    <select id="boardDto" resultType="com.example.blueSmith.board.dto.BoardDto">
+    <select id="getBoardList" resultType= "com.example.blueSmith.board.dto.BoardDto">
         select
-        userId
-        ,wDate
-        ,title
-        ,content
+        boardNum,
+        userId,
+        wDate,
+        title,
+        content,
+        hitNum
         from board
     </select>
 </mapper>
